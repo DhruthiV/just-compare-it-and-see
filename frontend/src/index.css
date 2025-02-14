@@ -1,0 +1,30 @@
+/* src/index.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.syllabus-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.syllabus1, .syllabus2 {
+  width: 48%;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.report-container {
+  width: 48%;
+  padding: 10px;
+  margin-top: 20px;
+  overflow-y: auto;
+}
+
+.comparison-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
